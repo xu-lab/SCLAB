@@ -17,7 +17,7 @@ source("https://raw.githubusercontent.com/xu-lab/SINCERA/umi/R/functions.R")
 
 project.name <- "Mouse.Lung.PND1"
 
-# Updating the path to access the raw data file
+# We are updating the path to access the raw data file
 mpnd1 <- readRDS(file="mpnd1.rds")
 
 min.cells <- 2
